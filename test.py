@@ -8,5 +8,6 @@ from sklearn.base import BaseEstimator, TransformerMixin, RegressorMixin, clone
 from sklearn.model_selection import KFold, cross_val_score, train_test_split    # Kfold为K折交叉验证
 from sklearn.metrics import mean_squared_error      # 导入计算误差的模块
 import xgboost as xgb
-import lightgbm import lgb
+import lightgbm as lgb
+
 
